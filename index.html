@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+   <script src="../jquery.js"></script>
+   <script src="../underscore.js"></script>
+   <script src="hanoi.js"></script>
+   <script src="towers_ui.js"></script>
+   <script>
+   $(document).ready(function() {
+     var ui = new TowersUI(Game);
+     ui.render();
+   })
+   </script>
+   <link rel="stylesheet" href="style.css" type="text/css">
+<title>Hanoi</title>
+</head>
+<body>
+  <h1>Towers of Hanoi</h1>
+  
+  <div class="board group">
+    <div class="pile"></div>
+    <div class="pile"></div>
+    <div class="pile"></div>
+  </div>
+  
+</body>
+</html>

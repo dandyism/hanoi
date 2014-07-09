@@ -1,0 +1,54 @@
+body, div, h1 {
+  margin: 0;
+  font: inherit;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  background: orange;
+}
+
+.highlight {
+  box-shadow: 0px 0px 5px 5px red;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.board {
+  width: 306px;
+  margin: 10px auto;
+}
+
+.pile {
+  width: 100px;
+  height: 90px;
+  border: 1px solid black;
+  float: left;
+  -webkit-transform: rotate(180deg);
+}
+
+.disc {
+  height: 30px;
+  margin: 0 auto;
+}
+
+.disc-1 {
+  width: 40px;
+  background: blue;
+}
+
+.disc-2 {
+  width: 60px;
+  background: purple;
+}
+
+.disc-3 {
+  width: 80px;
+  background: cyan;
+}
